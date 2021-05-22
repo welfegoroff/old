@@ -1,0 +1,59 @@
+.area {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: calc(100vh - 61px);
+  font-family: 'Bebas Neue'; 
+  display: flex;
+}
+
+.area-img {
+  width: 45%;
+  background-color: #fff;
+  background: url("../img/test.jpg") center / cover;
+}
+
+.area-text {
+  padding: 5%;
+  width: 55%;
+}
+
+h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.area h3 {
+  font-size: 24px;
+}
+
+.area h2 {
+  font-size: 50px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-item-textarea {
+    background-color: #1c1e1f;
+    border: none;
+    padding: 2%;
+    color: #ffb528;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.form-item-submit {
+    background-color: #ffb528;
+    border: none;
+    border-radius: 5px;
+    width: 33%;
+}
+
+.vkuiPanelHeader__content,
+.PanelHeader__content {
+  width: 600px;
+  padding-right: 20%;
+}

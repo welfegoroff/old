@@ -1,0 +1,103 @@
+.header {
+    background: url("../img/vk-image.jpg") center / cover;
+    color: #fff;
+    width: 100%;
+    height: calc(100vh - 61px);
+    font-family: 'Bebas Neue'; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.button {
+    width: 35%;
+}
+
+.header-text {
+    text-align: center;
+    text-shadow: #000 0px 0px 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.header-text h3 {
+  font-size: 24px;
+}
+
+.header-text h2 {
+  font-size: 50px;
+}
+
+.us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.quotes-block {
+    margin-top: 1%;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    padding: 1%;
+    background: #1a1b1c;
+    opacity: .8;
+}
+
+.comment-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 1%;
+}
+
+.comment-picture {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+}
+
+.gmarat {
+    background: url("../img/mgoreev.jpg") center / cover;
+}
+
+.aalipov {
+    background: url("../img/aalipov.jpg") center / cover;
+}
+
+.alatishev {
+    background: url("../img/alatishev.jpg") center / cover;
+}
+
+.kmikolosyuk {
+    background: url("../img/kmikolosiuk.jpg") center / cover;
+}
+
+.comment-title-person {
+    display: flex;
+}
+
+.comment-profile {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    text-shadow: #000 0px 0px 10px;
+}
+
+.comment-name {
+    font: 18px 'Bebas Neue'; 
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #FFB548;
+}
+
+.comment-name-desc {
+    color: grey;
+}
+
+.comment-desc {
+    display: block;
+    color: grey;
+    font-size: 12px;
+}
